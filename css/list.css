@@ -1,0 +1,327 @@
+/*
+YUI 3.18.1 (build f7e7bcb)
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+
+/*公共样式*/
+body{
+    background: #f5f5f5;
+    font-family: "Microsoft Yahei";
+}
+/*轮播图*/
+
+.list-carousel{
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    margin: 0px auto;
+    margin-top: 30px;
+   /* border: 10px solid blue;*/
+    position: relative;
+
+}
+.list-carousel ul{
+    list-style: none;
+}
+.list-carousel ul li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform:translateX(100%);
+}
+.list-carousel ul li img{
+    width: 100%;
+}
+.list-carousel.tr ul li img{
+    width: 100%;
+}
+.list-carousel.tr ul li{
+    transition:all 0.5s cubic-bezier(0.47, 0.92, 0.76, 1.01) 0s;
+}
+.list-carousel ul li:first-child{
+    transform:translateX(0);
+}
+.list-carousel ul li:last-child{
+    transform:translateX(-100%);
+}
+.list-carousel ol{
+    list-style: none;
+    position: absolute;
+    width: 65px;
+    height: 10px;
+    bottom: 5px;
+    right: 0;
+}
+.list-carousel ol li{
+    float: left;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    margin-right:5px;
+    background-color: #f6e2ee;
+}
+.list-carousel ol li.list-cur{
+    background-color: #f02387;
+}
+
+/*列表页小导航*/
+.list-mainnav{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px #ddd;
+
+}
+.list-mainnav a{
+    text-decoration: none;
+}
+.list-mainnav h3{
+    color: #f02387;
+    font-size: 12px;
+}
+.list-mainnav p{
+    color: #909090;
+    font-size: 13px;
+}
+.list-mainnav .list-left{
+    float: left;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.list-mainnav .list-right{
+    float: right;
+    box-sizing: border-box;
+}
+.list-mainnav .list-play{
+    width: 40%;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+.list-mainnav .list-play img{
+    width: 130px;
+    position: absolute;
+    left: 8px;
+    bottom:5px;
+}
+.list-mainnav .list-r{
+    width: 60%;
+}
+.list-mainnav .list-free{
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid #ddd;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.list-mainnav .list-free img{
+    width: 75px;
+    position: absolute;
+    right: 10px;
+    top:5px;
+}
+.list-mainnav .list-new{
+    width: 50%;
+    height: 110px;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.list-mainnav .list-new img{
+    width: 60px;
+    position: absolute;
+    right: 25px;
+    bottom:5px;
+}
+.list-mainnav .list-master{
+    width: 50%;
+    height: 110px;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.list-mainnav .list-master img{
+    width: 60px;
+    position: absolute;
+    right: 25px;
+    bottom:5px;
+}
+
+/*天天抢够*/
+.list-produce{
+    width: 100%;
+    box-sizing:border-box;
+    position: relative;
+    overflow: hidden;
+
+}
+.list-produce .list-pti{
+    margin-top: 10px;
+    width: 100%;
+    background: #f9f9f9;
+    border-left: 5px solid #f02387;
+    height: 30px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.list-produce .list-pti h2{
+    line-height: 30px;
+    font-size: 14px;
+    width: 20%;
+    font-weight: bold;
+    color: #555;
+    float: left;
+}
+.list-produce .list-pti span{
+    line-height: 30px;
+
+    font-size: 12px;
+    font-weight: 100;
+    color: #555;
+    float: right;
+}
+.list-produce .list-pnei{
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px 0 120px;
+    background: #fff;
+    /*background: #fff url("../images/produce.jpg") no-repeat;
+    background-size: contain;*/
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    position: relative;
+}
+.list-produce .list-pnei img{
+    width: 80px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.list-produce .list-pnei p{
+    width: 100%;
+    font-size: 12px;
+    color: #555;
+}
+.list-produce .list-pnei p{
+    width: 100%;
+    font-size: 12px;
+    color: #555;
+}
+.list-produce .list-pnei p.price{
+    position: absolute;
+    left: 120px;
+    bottom:10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #f02387;
+}
+.list-produce .list-pnei p.price span{
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #909090;
+    font-weight: 100;
+    margin-left: 10px;
+}
+.list-produce .list-pnei button{
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background: #fff;
+    border-radius: 4px;
+    position: absolute;
+    right: 10px;
+    bottom:10px;
+    font-size: 12px;
+    color: #f02387;
+    border: 1px solid #f02387;
+
+}
+
+/*精选热销*/
+
+.list-produce nav{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    height: 40px;
+}
+.list-produce nav ul{
+    list-style: none;
+    line-height: 40px;
+    overflow: hidden;
+    height: 40px;
+}
+.list-produce nav ul li{
+    float: left;
+    padding: 0 20px;
+}
+.list-produce nav ul li a{
+    color:#909090;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: "Microsoft Yahei";
+}
+.list-produce nav ul li a.cur{
+    color:#f02387;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: "Microsoft Yahei";
+}
+
+/*.list-produce .list-pneirong{
+    width: 50%;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}*/
+.list-produce .list-pneirong{
+    width: 49%;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px #ddd;
+}
+.list-produce .list-pneirong:nth-child(2n){
+    float: right;
+}
+.list-produce .list-pneirong:nth-child(2n-1){
+    float: left;
+    margin-right: 2%;
+}
+.list-produce .list-pneirong img{
+    width: 100%;
+}
+.list-produce .list-pneirong p{
+    width: 100%;
+    font-size: 12px;
+    color: #555;
+}
+.list-produce .list-pneirong p{
+    width: 100%;
+    font-size: 12px;
+    color: #555;
+}
+.list-produce .list-pneirong p.price{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 3px;
+    color: #f02387;
+}
+.list-produce .list-pneirong p.price span{
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #909090;
+    font-weight: 100;
+    margin-left: 10px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" id="viewport" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" href="css/hs-header.css"/>
+    <link rel="stylesheet" type="text/css" href="css/list.css" />
+    <script src="js/zepto.min.js"></script>
+    <script type="text/javascript" src="js/zeptoWithFx.js"></script>
+    <script src="js/hisen-list.js"></script>
+    <script type="text/javascript" src="js/hisen-header.js"></script>
+    <script type="text/javascript" src="js/hisen-menuLeft.js"></script>
+    <script type="text/javascript" src="js/hisen-search.js"></script>
+    <title></title>
+</head>
+
+<body>
+</body>
+
+<script type="text/javascript">
+    HS_list.listShell.initModule($("body"),null);
+    HS_list.listBanner.bannerModule($(".list-carousel"),null)
+    HS_list.listNav.navModule($(".list-mainnav"),null)
+    HS_list.listQiangba.qiangbaModule($(".list-produce1"),null)
+    HS_list.listHot.hotModule($(".list-produce2"),null)
+    HS_header.indexShell.init($(".hs-header"),null);
+    HS_search.indexShell.init($("#hs-search"),null);
+    HS_menuLeft.indexShell.init($(".hs-menu"),null);
+
+</script>
+
+</html>

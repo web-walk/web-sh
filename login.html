@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/login.css"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/hisen-login.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="login-header">
+        <span class="login-back"></span>
+        <div>嗨森登录</div>
+        <span class="login-mark"></span>
+    </div>
+</div>
+<div class="hs-login-right">
+    <form>
+        <div class="hs-login-right-login">
+            <input type="text" class="hs-right-userLog-input" id="hs-right-userLog-inputUName"
+                   placeholder="用户名/手机号/ID"/>
+            <p class="hs-right-userLog-error1" id="hs-right-userLog-uNameError"></p>
+            <input type="password" class="hs-right-userLog-input" placeholder="密码" id="hs-right-userLog-inputPwd"/>
+
+            <p type="text" class="hs-right-userLog-error2" id="hs-right-userLog-pwdError"/></p>
+            <p class="hs-right-auto"><input type="checkbox"/><label>自动登陆</label></p>
+
+            <div class="hs-login-right-forget">忘记密码<a href="register.html">立即注册</a></div>
+        </div>
+    </form>
+    <input type="button" value="登 陆" class="hs-login-btnLogin" id="hs-login-btnLogin"/>
+</div>
+</body>
+</html>

@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Î¢ÈíÑÅºÚ";
+}
+.des-margin-left{
+    margin-left:10px;
+}
+.des-p-margin-right{
+    display:inline-block;
+    margin-right:20px;
+}
+.des-title{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background:-webkit-linear-gradient(top, #fcfcf8, #e7e3e5);
+    font-size:16px;
+}
+.des-image{
+    text-align: center;
+}
+.des-price{
+    color: #ff5427;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    /*border-top:1px solid #ccc;*/
+    border-bottom: 1px solid #ccc;
+    background:rgba(0,0,0,0.06);
+}
+.des-price span{
+    display: block;
+    margin-left:8px;
+}
+.des-product-title{
+    border-bottom: 1px solid #ccc;
+    height: 30px;
+    line-height: 30px;
+}
+.des-product-dec {
+    height: 70px;
+}
+.des-product-dec span:nth-child(1){
+    color: #ff1722;
+    display:block;
+    margin-top:10px;
+    font-size:16px;
+}
+.des-product-dec span:nth-child(2){
+    display: block;
+    color: #7f7f7f;
+    margin-top: 20px;
+    margin-left:80px;
+}
+.des-non{
+    background: #dcdcd9;
+    border-bottom:1px solid #ccc;
+    height: 10px;
+}
+.des-cuxiao{
+    height: 45px;
+    border-bottom:1px solid #cccccc;
+    line-height: 45px;
+}
+.des-cuxiao span{
+    border:1px solid #ff9079;
+    color:#ff9079;
+    border-radius:2px;
+    font-size:12px;
+}
+.des-format{
+    height: 45px;
+    line-height: 45px;
+}
+.des-format span{
+    color: #7f7f7f;
+}
+.des-font{
+    color:#7f7f7f;
+    font-size:14px;
+}
+.des-height{
+    height: 45px;
+    line-height: 45px;
+    border-bottom:1px solid #cccccc;
+}
+.des-product-detail{
+    height:45px;
+    line-height: 45px;
+}
+.des-margin-top{
+    margin-top:10px;
+}
+.des-peisong span:nth-child(1){
+    color: #cccccc;
+}
+.des-peisong span:nth-child(3){
+    font-size:12px;
+    color: #ff581c;
+    display: block;
+    margin-left:60px;
+    margin-top:6px;
+}
+.des-bottom{
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    position:fixed;
+    bottom:0;
+}
+.des-bottom-gouwuche{
+    float:left;
+    width:40%;
+    background:-webkit-linear-gradient(top, #3f3f3f, #0a1218)
+}
+.des-bottom-gouwuche span{
+    display: inline-block;
+    width: 50%;
+    color: #fefefe;
+    text-align: center;
+    margin-top:10px;
+    font-size:10px;
+}
+.des-bottom-addGouWuche{
+    float:left;
+    color: #fefefe;
+    width: 30%;
+    text-align: center;
+    background:-webkit-linear-gradient(top, #fcbb0f, #e77c15);
+}
+.des-bottom-nowbuy{
+    float:left;
+    color: #fefefe;
+    background: -webkit-linear-gradient(top, #fc4191, #e71b33);
+    display:inline-block;
+    text-align: center;
+    width:30%;
+}
+.des-Contactseller{
+    text-align: center;
+}
+.des-pro-sun-consult{
+    color: #c4c4c4;
+    text-align: center;
+}
+.des-pro-sun-consult span{
+    display:inline-block;
+    width:49%;
+    text-align: center;
+    color: #0d0d0d;
+}
+.des-appraise  span{
+    font-size:10px;
+    float:right;
+    margin-right:32px;
+    color:#9d9c9c;
+}
+.des-appraise  span em{
+    font-style:normal;
+}
+.des-service p:nth-child(3){
+    margin-left:60px;
+    margin-top:5px;
+}
+.des-service p span{
+    border:1px solid #5965ff;
+    color:#5965ff;
+    font-size:10px;
+    margin-right:10px;
+    /*padding-left:15px;*/
+}
+.des-service p span:nth-child(1){
+    background:url(../images/xianshi.jpg) no-repeat;
+    padding-left:16px;
+    width: 10px;
+    height: 10px;
+    background-size:contain;
+}
+.des-service p span:nth-child(2){
+    background:url(../images/huodaofukuan.jpg) no-repeat;
+    padding-left:16px;
+    width: 10px;
+    height: 10px;
+    background-size:contain;
+}
+.des-service p span:nth-child(3){
+    background:url(../images/ziti.jpg) no-repeat;
+    padding-left:16px;
+    width: 10px;
+    height: 10px;
+    background-size:contain;
+}

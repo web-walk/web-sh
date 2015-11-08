@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/register.css"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+</head>
+<body>
+<div class="header">
+    <div class="register-header">
+        <a class="register-back" href="login.html"></a>
+        <div>嗨森注册</div>
+        <span class="register-mark"></span>
+    </div>
+</div>
+<div>
+    <div class="main">
+        <div class="register register-tips" style="display:none;">
+            <div class="err-msg"></div>
+        </div>
+        <div class="register register-captcha" style="display:">
+            <div class="input-info">
+                <input class="txt-input txt-captcha" type="text" autocomplete="off" placeholder="请输入图片验证码">
+                <span id="captcha-img"><img src="" width="63" height="25" alt=""></span>
+            </div>
+        </div>
+        <div class="register register-phone">
+            <input class="txt-input txt-phone" type="tel" placeholder="请输入手机号">
+            <a href="javascript:;" class="btn-retransmit btn-retransmit-disabled">获取短信验证码</a>
+        </div>
+        <div class="register register-sms-captcha">
+            <input class="txt-input txt-sms-captcha" type="tel" autocomplete="off" placeholder="请输入短信验证码">
+        </div>
+        <div class="register register-password">
+            <input class="txt-input txt-password" type="text" autocomplete="off" placeholder="请设置6-20位登录密码" required="">
+            <div class="err-tips">注册即视为同意<a href="http://m.jd.com/help/app/register.html">《嗨森购用户注册协议》</a></div>
+        </div>
+        <div class="register register-btns">
+            <a href="javascript:;" class="btn-login btn-disabled">注册</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

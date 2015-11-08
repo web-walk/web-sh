@@ -1,0 +1,402 @@
+@charset "utf-8";
+/* CSS Document */
+html{font-size: 24px;}
+body,div,img,ul,li,ol,dl,dt,dd,a,input,table,textarea,tr,td,span,strong,h1,h2,h3,h4,p{ list-style-type:none; margin:0; padding:0; outline: none;-webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none; }
+body{ color:#666; font-size:14px; font-family:"微软雅黑","宋体";background: #f5f5f5; }
+body{
+    transition: all .5s ease-in 0s;
+}
+/*------公共样式-------------------*/
+.hs-title{
+    font-size: 14px;
+    line-height: 35px;
+    color: #d40067;
+    padding-left: 10px;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.hs-search-top{
+    width: 100%;
+    padding:0 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+.hs-back{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("../images/top/hs-icons.png") 5px -65px;
+    background-size: 250px 250px;
+}
+
+.hs-search-txt{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-top: 7px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.hs-search-box{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+    font-size: 14px;
+    color: #666;
+    border: none;
+    font-family: "微软雅黑", "宋体";
+
+}
+
+/*------header---头部------------------------*/
+#hs-header{
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #f02387;
+    z-index: 12;
+}
+.hs-header-box{
+    box-sizing: border-box;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+}
+.hs-menu-icon{
+    width: 25px;
+    height: 25px;
+    background: #ccc;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 12;
+    background: url("../images/top/hs-icons.png") -5px -38px;
+    background-size: 250px 250px;
+}
+
+.hs-right-icon{
+    width: 25px;
+    height: 25px;
+    background: #ccc;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url("../images/top/hs-icons.png") -5px -5px no-repeat;
+    background-size: 250px 250px;
+}
+.logo{
+    width: 70px;
+    height: 20px;
+    background: url("../images/hs-logo.png") no-repeat;
+    background-size:auto 100%;
+    margin: 12px auto;
+}
+
+/*------search---搜索-------------------------------------------*/
+#hs-search{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    z-index: 16;
+    background: #fff;
+}
+#hs-search a{color:#666}
+.hs-search-top{
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #ddd;
+}
+.hs-tj-search{
+
+}
+.hs-tjTitle{
+    padding: 10px;
+}
+.hs-tjBox li{
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 5px 8px;
+    margin: 10px;
+}
+.hs-tjBox li:hover{
+    background: #F02387;
+    color: #fff;
+    border: 1px solid #F02387;
+}
+/*------nav---导航菜单-------------------------------------------*/
+.shezh-box{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 15;
+    color: #fff;
+}
+.shezhi{
+    width: 70%;
+    height: 100%;
+    background: rgba(000,000,000,0.96);
+    font-size: 14px;
+    float: left;
+    position: relative;
+
+}
+.lokong{
+    width: 30%;
+    height: 100%;
+    float: right;
+    background: rgba(000,000,000,0);
+}
+.hs-menu a{color:#b2b2b2;text-decoration: none;}
+.hs-menu .nav{
+    margin-top: 45px;
+}
+.hs-menu .nav li{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #b2b2b2;
+
+    border-bottom: 1px solid #222;
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+.hs-menu .nav li:before{
+    content: "";
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+    background:url("../images/top/hs-icons.png");
+    background-size: 250px 250px;
+}
+.hs-menu .nav li:nth-child(1):before{
+    background-position: -48px -8px;
+}
+.hs-menu .nav li:nth-child(2):before{
+    background-position: -48px -33px;
+}
+.hs-menu .nav li:nth-child(3):before{
+    background-position: -48px -59px;
+}
+.hs-menu .nav li:nth-child(4):before{
+    background-position: -48px -83px;
+}
+.hs-menu .nav li:nth-child(5):before{
+    background-position: -48px -108px;
+}
+.hs-menu .nav li:nth-child(6):before{
+    background-position: -48px -132px;
+}
+.hs-menu .nav li:nth-child(7):before{
+    background-position: -48px -156px;
+}
+.hs-menu .nav li:nth-child(8):before{
+    background-position: -48px -182px;
+}
+.hs-menu .nav li.cur:before{
+    background-position: -77px -8px;
+
+}
+.hs-menu .nav li.cur{
+    color: #d40067;
+}
+.hs-nav-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    border-top: 1px solid #444;
+}
+.hs-nav-bottom li{
+    width: 50%;
+    height: 45px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    line-height: 45px;
+
+}
+.hs-nav-bottom li:first-child{
+    border-right: 1px solid #444;
+}
+/*-------banner---轮播图---------------------------*/
+#hs-banner{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 45px;
+    font-size: 0;
+}
+#hs-banner ul{
+    width: 400%;
+}
+#hs-banner li{
+    float: left;
+    width: 25%;
+}
+#hs-banner li img{
+    width: 100%;
+}
+
+/*---------hs-nav---导航-----------------------------*/
+.hs-nav{
+    height: 140px;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    background: #fff;
+    box-shadow: 0px 1px 4px #ddd;
+}
+.hs-nav li{
+    width: 20%;
+    height: 65px;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+/*.hs-nav li:after{
+    content: "";
+    height: 2rem;
+    width: 1px;
+    float: left;
+    margin-top: 0.5rem;
+    background: #ddd;
+
+}*/
+.hs-nav li a{
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    background-image:url("../images/nav/nav-icon.png");
+    background-size: 45px 450px;
+}
+.hs-nav li:nth-child(1) a{
+    background-color: #ea0f00;
+    background-position: 0 0;
+}
+.hs-nav li:nth-child(2) a{
+    background-color: #f80077;
+    background-position: 0 -45px;
+}
+.hs-nav li:nth-child(3) a{
+    background-color: #da00e8;
+    background-position: 0 -90px;
+}
+.hs-nav li:nth-child(4) a{
+    background-color: #00cd59;
+    background-position: 0 -135px;
+}
+.hs-nav li:nth-child(5) a{
+    background-color: #00acaa;
+    background-position: 0 -180px;
+}
+.hs-nav li:nth-child(6) a{
+    background-color: #41c600;
+    background-position: 0 -225px;
+}
+.hs-nav li:nth-child(7) a{
+    background-color: #00cd98;
+    background-position: 0 -270px;
+}
+.hs-nav li:nth-child(8) a{
+    background-color: #00a8e0;
+    background-position: 0 -315px;
+}
+.hs-nav li:nth-child(9) a{
+    background-color: #ff6c00;
+    background-position: 0 -360px;
+}
+.hs-nav li:nth-child(10) a{
+    background-color: #f10062;
+    background-position: 0 -405px;
+}
+.hs-nav li span{
+    text-align: center;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+/*-------hs-street---嗨森街-----------------------*/
+.hs-module{
+    clear: both;
+    width: 100%;
+    margin-top: 10px;
+    background: #fff;
+    box-shadow: 1px 1px 5px #ddd;
+}
+.hs-street-title{
+    display: block;
+    width: 100%;
+    height: 35px;
+}
+
+.hs-advertisement{
+    width: 100%;
+    overflow: hidden;
+}
+.hs-advertisement-left{
+    width: 50%;
+    height: 188px;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #ddd;
+    overflow: hidden;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.hs-advertisement-left img{
+    height: 100%;
+}
+.hs-advertisement-right{
+    width: 50%;
+    height: 188px;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.advertisement-top{
+    height: 50%;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.advertisement-bottom{
+    border-bottom: none;
+    box-sizing: border-box;
+}
+.hs-advertisement-right img{
+    height: 100%;
+}
+
+
+

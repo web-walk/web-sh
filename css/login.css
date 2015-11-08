@@ -1,0 +1,86 @@
+* {margin:0px;padding:0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;font-size:12px;font-family: "微软雅黑"}
+a{color:#666; text-decoration: none;}
+body{background-color: #fff;color:#666;}
+.login-header{background: #f02387;height:44px;line-height:44px;color:#fff;text-align: center;padding:0 50px;}
+.login-back{position: absolute;top:8px;left:10px;width:25px;height:25px;background-image: url("../images/iconfont-back.png");background-size: cover;}
+.login-header div{font-size:16px;}
+.login-mark{position: absolute;top:8px;right:10px;width:25px;height:25px;background-image: url("../images/iconfont-mark.png");background-size: cover;}
+
+.hs-login-right{
+    margin-top:30px;
+}
+.hs-login-right-login{
+    margin-left:5%;
+    width:90%;
+    position:relative;
+}
+.hs-right-userLog-input{
+    height: 44px;
+    line-height: 35px;
+    margin-bottom:5px;
+    width: 100%;
+    fonti-size:14px;
+    border:#d7d7d7 solid 1px;
+    border-radius: 3px;
+    padding-left:15px;
+    font-size:16px;
+}
+.hs-right-userLog{
+    font-family: '微软雅黑';
+    font-weight: bold;
+}
+.hs-right-auto{
+    font-size:12px;
+    height: 15px;
+    float: left;
+}
+.hs-login-right-forget{
+    font-size:12px;
+    height: 15px;
+    float:right;
+
+}
+.hs-login-right-forget a{
+    text-decoration: none;
+    padding-left:20px;
+    color:#f02387;
+}
+.hs-login-btnLogin{
+    width: 90%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-left:5%;
+    background-color:#f02387;
+    margin-top:30px;
+    color: #fff;
+    font-family: '宋体';
+    border-radius:3px;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+}
+.hs-right-userLog-error1{
+    height: 25px;
+    line-height: 25px;
+    margin-bottom:5px;
+    color: #cc1638;
+    display:none;
+    text-align: left;
+    border:none;
+    font-size:14px;
+}
+.hs-right-userLog-error2{
+    height: 25px;
+    line-height: 25px;
+    color: #cc1c25;
+    width: 200px;
+    text-align: left;
+    display:none;
+    border:none;
+    font-size:14px;
+    margin-bottom:5px;
+}
